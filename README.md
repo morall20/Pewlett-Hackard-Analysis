@@ -47,8 +47,12 @@ Pewlett Hackard has nearly 30% of its workforce near retirement age. PH will nee
 
 Retiring Employees
 
+![Retiring_by_Title](https://user-images.githubusercontent.com/82338072/120867793-acb4e280-c560-11eb-9ce4-a32d035a8fb1.png)
+
 As should be expected the biggest hits will come from the senior position across the board especially in the engineering and staff positions.
 
 Thankfully PH still has an ample amount of employees still qualified to train up the new wave of future employees in the mentorship program.
 
 Mentors Available
+
+![Mentors By Title](https://user-images.githubusercontent.com/82338072/120867806-b5a5b400-c560-11eb-9542-78d2de713550.png)
