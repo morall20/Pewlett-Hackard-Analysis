@@ -23,7 +23,7 @@ My finally task was to create a Mentorship Eligibility table that holds the empl
 
 2. So I produced the following query to grab field data from 3 separate tables "employee, dept_emp, and titles" then filtering the data to ensure that the query only returned data from still active employees representd by the value "9999-01-01" in to_date field and were born between the dates specified by PH.
 
-SELECT DISTINCT ON (e.emp_no) e.emp_no,
+`SELECT DISTINCT ON (e.emp_no) e.emp_no,
     e.first_name,
 	e.last_name, 
     e.birth_date,
@@ -37,7 +37,7 @@ ON (e.emp_no = de.emp_no)
 INNER JOIN titles ti
 ON (e.emp_no = ti.emp_no)
 WHERE (de.to_date = '9999-01-01') AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-
-ORDER BY e.emp_no;
+ORDER BY e.emp_no;`
 
 3. When the query completed it created a new data table called mentorship_elgibility.
 
